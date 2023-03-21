@@ -7,4 +7,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="1672714729_Elden Ring 2023.01.03 - 05.16.52.08 %28online-video-cutter.com%29.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1672714729_Elden Ring 2023.01.03 - 05.16.52.08 (online-video-cutter.com).gif" />
+  </ItemGroup>
+
 </Project>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,21 @@ namespace Gamelauncher
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void BT_WebSite_Click(object sender, RoutedEventArgs e)
+        {
+            Process.Start(new ProcessStartInfo("https://srvdreamer.fr")
+            {
+                UseShellExecute = true
+            });
+                
+                
+        }
+
+        private void BT_Play_Click(object sender, RoutedEventArgs e)
+        {
+            Process.Start("jeu.exe");
         }
     }
 }
